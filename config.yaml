@@ -13,19 +13,20 @@ taxonomies:
 # Parâmetros PaperMod
 params:
   env: production
-  description: "Taking little steps into software engineering"
+  description: "Hi, I'm Guilherme — sharing what I learn and love, one small step at a time."
   author: "Guilherme Carvalho"
-  defaultTheme: dark # light/dark
+  defaultTheme: light # light/dark
   showReadingTime: true
   showBreadCrumbs: true
   showPostNavLinks: true
   showCodeCopyButtons: true
   showShareButtons: false
   showPostCategories: true
-  disableThemeToggle: false
+  disableThemeToggle: true
+  DateFormat: "2006.01.02"
   comments: false
 
-  mainSections: ["posts"]
+  mainSections: ["notes"]
 
   assets:
     favicon: "favicon.ico"
@@ -35,17 +36,12 @@ params:
 
   homeInfoParams:
     Title: ""
-    Content: "Taking little steps into software engineering"
+    Content: "Hi, I'm Guilherme — sharing what I learn and love, one small step at a time."
     image: "t-logo.png"
   profileMode:
     enabled: true
-    title: ""
-    subtitle: "Taking little steps into software engineering"
-    imageUrl: "t-logo.png"
-    imageTitle: "TinySteps Logo"
-    buttons:
-      - name: "Read the posts"
-        url: "posts/"
+    title: "Hi, I'm Guilherme 👋"
+    subtitle: "Sharing what I learn and love, one small step at a time."
 
   socialIcons:
     - name: github
@@ -54,9 +50,18 @@ params:
 # Menus principais
 menu:
   main:
-    - name: "Posts"
-      url: "posts/"
+    - name: "Notes"
+      url: "notes/"
       weight: 10
+    - name: "About"
+      url: "about/"
+      weight: 20
+    - name: "Bookshelf"
+      url: "bookshelf/"
+      weight: 30
+    - name: "Archive"
+      url: "archives/"
+      weight: 40
 
 # Build
 buildDrafts: false

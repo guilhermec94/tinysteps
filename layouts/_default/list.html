@@ -1,0 +1,78 @@
+{{- define "main" }}
+
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }}{{/* if not profileMode */}}
+
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
+  </div>
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{ .Content }}
+</div>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+{{- $tagTaxonomy := "tags" }}
+<ul class="entry-list">
+  {{- range $paginator.Pages }}
+  <li class="entry-row">
+    <time class="entry-date" datetime="{{ .Date.Format "2006-01-02T15:04:05-07:00" }}">{{ .Date | time.Format (default "2006.01.02" site.Params.DateFormat) }}</time>
+    <div class="entry-main">
+      <a class="entry-title" href="{{ .Permalink }}">{{ .Title }}</a>
+      {{- if not (.Param "hideSummary") }}
+      <p class="entry-desc">{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}…{{ end }}</p>
+      {{- end }}
+    </div>
+    {{- $terms := .GetTerms $tagTaxonomy }}
+    {{- if $terms }}
+    <ul class="entry-tags">
+      {{- range $terms }}<li><a href="{{ .Permalink }}">#{{ .LinkTitle }}</a></li>{{- end }}
+    </ul>
+    {{- end }}
+  </li>
+  {{- end }}
+</ul>
+
+{{- if gt $paginator.TotalPages 1 }}
+<footer class="page-footer">
+  <nav class="pagination">
+    {{- if $paginator.HasPrev }}
+    <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+      «&nbsp;{{ i18n "prev_page" }}
+    </a>
+    {{- end }}
+    {{- if $paginator.HasNext }}
+    <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+      {{ i18n "next_page" }}&nbsp;»
+    </a>
+    {{- end }}
+  </nav>
+</footer>
+{{- end }}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{/* end main */}}

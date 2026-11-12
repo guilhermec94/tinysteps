@@ -15,14 +15,14 @@ After a friendly back-and-forth, it told me: _“That’s because of how Spring 
 And that was the first time I’d ever heard about **AOP**.  
 Bear in mind that the last time I’d touched Java was back in university — quite a while ago — and I didn’t have a solid Spring background when I started this job. So I’m still piecing things together.
 
-If you’ve stumbled across this post, you’ve probably heard “AOP” or “Spring AOP” somewhere — maybe even from ChatGPT — while debugging something mysterious in your code.
+If you’ve stumbled across this note, you’ve probably heard “AOP” or “Spring AOP” somewhere — maybe even from ChatGPT — while debugging something mysterious in your code.
 
 Either way, you’re here, I’m here, so let’s figure this out together. Because honestly, I’m learning as I write this too!
 # AOP? What doest that mean and what is it?
 
 AOP. At first glance, this acronym doesn’t say much.  
 You can kind of guess that the “O” stands for _Object_ and the “P” for _Programming_ or _Paradigm_ — at least that was my first guess.  
-But ChatGPT (and a great post from [Baeldung](https://www.baeldung.com/spring-aop)) cleared things up for me.
+But ChatGPT (and a great note from [Baeldung](https://www.baeldung.com/spring-aop)) cleared things up for me.
 
 **AOP** stands for **Aspect-Oriented Programming**.  
 It’s a programming paradigm that allows us to add new behavior to our existing code **without modifying the code itself** — pretty cool, right?
@@ -41,7 +41,7 @@ If you’re not yet familiar with this concept (I had very little experience wit
 **Cross-cutting concerns** are functionalities that are needed in many places: **logging**, **error handling**, **security/authorization**, **monitoring**, and so on.
 
 Take logging as an example.  
-We need logs across our application — in services, processes, HTTP requests, etc.  
+We need notes across our application — in services, processes, HTTP requests, etc.  
 Since logging is needed _everywhere_, it “cuts across” many parts of the system.
 
 If we tried to place this functionality directly inside each module (Users, Orders, Payments…), we’d quickly end up duplicating code.  
@@ -62,7 +62,7 @@ public class PaymentService {
     }
 }
 ```
-Without AOP, if we want to log before and after our method, we have to explicitly add those lines — and we’d need to do the same across multiple services.
+Without AOP, if we want to note before and after our method, we have to explicitly add those lines — and we’d need to do the same across multiple services.
 ##### With AOP
 ```
 @Aspect
@@ -196,7 +196,7 @@ Next, we have our **advices**, the actual cross-cutting methods we want to run.
 
 We could have reused the same Pointcut method, but this shows how to target a specific method for finer control.
 
-So when `placeOrder()` returns something like `"Order confirmed"`, Spring passes that value into `result`, and our advice logs it.
+So when `placeOrder()` returns something like `"Order confirmed"`, Spring passes that value into `result`, and our advice notes it.
 
 You might be wondering: _“Okay, I get what an Aspect is now. But what does this have to do with the problem you had earlier with Spring annotations?”_
 
@@ -233,7 +233,7 @@ There are a few different types of weaving depending on _when_ the Aspects are a
 - Because it’s done dynamically, **it doesn’t modify bytecode** — it simply adds an extra layer at runtime.
 # Understanding the issue I was having
 
-Remember the issue I mentioned at the beginning of the post?  
+Remember the issue I mentioned at the beginning of the note?  
 Well, it turns out that the culprit — besides me not fully understanding how things work — was this **proxy-based approach** that Spring AOP uses.  
 So let’s dive into how this proxy works and why a small detail can have a _big_ impact on your code.
  
@@ -342,13 +342,13 @@ You have a few options:
 	    ```  
 
 You can read more about proxies [here](https://docs.spring.io/spring-framework/reference/core/aop/proxying.html#aop-understanding-aop-proxies).
-# See you in the next post... 👋
+# See you in the next note... 👋
 
 We finally reached the end — woof.
 
-I hope this post was as beneficial to you as it was for me.
+I hope this note was as beneficial to you as it was for me.
 
-I decided to write this post for three reasons:
+I decided to write this note for three reasons:
 - I find it easier to learn new things when I have to research them and try to explain them to someone else — instead of just reading the same text over and over again until it burns into my brain.
 - I wanted a way to document my learnings instead of relying solely on my shrinking, downgrading “internal storage device.”  
     _Weren’t books invented in the first place because our tiny brains couldn’t store everything we wanted — and occasionally had to “wipe out” old data to make space for new things?_
