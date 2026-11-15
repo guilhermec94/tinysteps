@@ -1,55 +1,39 @@
 ---
 title: "Bookshelf"
-description: "What I'm reading, what I've read, and what's next on my shelf."
+description: "A running list of the books in my life — what's on the nightstand, what I've finished, and what's waiting."
 hideMeta: true
+type: bookshelf
+currentlyReading:
+  - title: "Harry Potter and the Philosopher's Stone"
+    author: "J.K. Rowling"
+    cover: "covers/harry-potter-philosophers-stone.png"
+read:
+  - title: "Digital Minimalism"
+    author: "Cal Newport"
+    cover: "covers/digital-minimalism.jpg"
+  - title: "Make It Stick: The Science of Successful Learning"
+    author: "Peter C. Brown, Henry L. Roediger III & Mark A. McDaniel"
+    cover: "covers/make-it-stick.jpg"
+  - title: "The Peter Principle"
+    author: "Laurence J. Peter & Raymond Hull"
+    cover: "covers/peter-principle.jpg"
+  - title: "Surrounded by Idiots"
+    author: "Thomas Erikson"
+    cover: "covers/surrounded-by-idiots.jpg"
+  - title: "Deep Work"
+    author: "Cal Newport"
+    cover: "covers/deep-work.jpg"
+  - title: "The House Across the Lake"
+    author: "Riley Sager"
+    cover: "covers/house-across-the-lake.jpg"
+  - title: "The Subtle Art of Not Giving a F*ck"
+    author: "Mark Manson"
+    cover: "covers/subtle-art-not-giving-fuck.jpg"
+  - title: "Hidden Pictures"
+    author: "Jason Rekulak"
+    cover: "covers/hidden-pictures.jpg"
+  - title: "The Devotion of Suspect X"
+    author: "Keigo Higashino"
+    cover: "covers/devotion-of-suspect-x.jpg"
+wantToRead: []
 ---
-
-A running list of the books in my life — what's on the nightstand, what I've finished, and what's waiting.
-
-## Currently reading
-
-![Harry Potter and the Philosopher's Stone cover](covers/harry-potter-philosophers-stone.png)
-
-**Harry Potter and the Philosopher's Stone** — J.K. Rowling
-
-## Read
-
-![Digital Minimalism cover](covers/digital-minimalism.jpg)
-
-**Digital Minimalism** — Cal Newport
-
-![Make It Stick cover](covers/make-it-stick.jpg)
-
-**Make It Stick: The Science of Successful Learning** — Peter C. Brown, Henry L. Roediger III & Mark A. McDaniel
-
-![The Peter Principle cover](covers/peter-principle.jpg)
-
-**The Peter Principle** — Laurence J. Peter & Raymond Hull
-
-![Surrounded by Idiots cover](covers/surrounded-by-idiots.jpg)
-
-**Surrounded by Idiots** — Thomas Erikson
-
-![Deep Work cover](covers/deep-work.jpg)
-
-**Deep Work** — Cal Newport
-
-![The House Across the Lake cover](covers/house-across-the-lake.jpg)
-
-**The House Across the Lake** — Riley Sager
-
-![The Subtle Art of Not Giving a F*ck cover](covers/subtle-art-not-giving-fuck.jpg)
-
-**The Subtle Art of Not Giving a F*ck** — Mark Manson
-
-![Hidden Pictures cover](covers/hidden-pictures.jpg)
-
-**Hidden Pictures** — Jason Rekulak
-
-![The Devotion of Suspect X cover](covers/devotion-of-suspect-x.jpg)
-
-**The Devotion of Suspect X** — Keigo Higashino
-
-## Want to read
-
-- *Title* — Author

@@ -1,0 +1,35 @@
+.bookshelf-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+.book {
+  text-align: center;
+  min-width: 0;
+}
+
+.book img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.book-title {
+  margin: 0.6rem 0 0.3rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--heading);
+  overflow-wrap: break-word;
+}
+
+.book-author {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+}
