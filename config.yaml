@@ -13,7 +13,7 @@ taxonomies:
 # Parâmetros PaperMod
 params:
   env: production
-  description: "Hi, I'm Guilherme — sharing what I learn and love, one small step at a time."
+  description: "Hi, I'm Guilherme — sharing things, one small step at a time."
   author: "Guilherme Carvalho"
   defaultTheme: light # light/dark
   showReadingTime: true
@@ -36,12 +36,12 @@ params:
 
   homeInfoParams:
     Title: ""
-    Content: "Hi, I'm Guilherme — sharing what I learn and love, one small step at a time."
+    Content: "Hi, I'm Guilherme — sharing things, one small step at a time."
     image: "t-logo.png"
   profileMode:
     enabled: true
     title: "Hi, I'm Guilherme 👋"
-    subtitle: "Sharing what I learn and love, one small step at a time."
+    subtitle: "Sharing things, one small step at a time."
 
   socialIcons:
     - name: github

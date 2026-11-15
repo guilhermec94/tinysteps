@@ -3,21 +3,20 @@ title: "About Me"
 hideMeta: true
 ---
 
-I'm a software engineer, but this isn't only a tech blog. It's my public notebook — a place where I write about the things I'm learning and the things I enjoy, one small step at a time.
+Normally, in this section, people start with "I'm X", where X usually matches their current profession. I don't really like that kind of labeling, because change is the only constant in life. Today I might be X, and down the road, I might need to be Y. Beyond that, I don't like saying that I *am* my profession—that feels inaccurate. I'm a human being, with good and bad sides, and my job is just one piece of my life that can evolve over time.
 
-Most of what you'll find here starts the same way: I bump into something I don't fully understand (or something I'm just excited about), dig into it, and try to explain it in the simplest way I can. Writing it down is how I learn — and hopefully it helps you too.
+So let me start properly.
 
-## What you'll find here
+I am Guilherme, a human who currently works as a software engineer. This is my personal public notebook. It isn't just a tech blog; it's a place where I write about the things I enjoy, what I'm learning one small step at a time, what I'm reading, or simply an opinion on something. 
 
-- Explanations written in plain English, with the "aha" moments kept in.
-- The occasional dive into hobbies and whatever else I'm curious about.
+This last part is important: if you happen to cross paths with this space, bear in mind that everything you'll read here reflects my own views, beliefs, and feelings at a given moment. They are neither right nor wrong—they just are. That's why they're called opinions. They have value to me, might be useful to others if they see fit, and are always subject to change. I think this should be obvious, but in this day and age, some people forget about that and feel that their beliefs were attacked and start attacking too...
 
 ## What I'm into
 
 - 🛠️ Building things
-- 📚 Reading — especially psychology and suspense/thriller books
+- 📚 Reading
 - 🏍️ Riding motorcycles
 
-I'm also keeping track of the books I read on my [bookshelf]({{< relref "/bookshelf" >}}).
+I also keep track of the books I read on my [bookshelf]({{< relref "/bookshelf" >}}).
 
 Thanks for stopping by!
