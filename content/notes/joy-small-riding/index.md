@@ -1,5 +1,5 @@
 ---
-date: "2026-11-15T20:37:27Z"
+date: "2026-11-15T20:30:00Z"
 draft: false
 title: "The joy of small and slow riding"
 tags: ["Motorcycles", "Riding", "Life"]
