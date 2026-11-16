@@ -1,0 +1,10 @@
+/* Uniform width for standalone images in notes/posts (e.g. GIFs).
+   Scoped to paragraph images so it doesn't affect the Bookshelf covers. */
+.post-content p img {
+  display: block;
+  width: 480px;
+  max-width: 100%;
+  height: auto;
+  margin: 1.25rem auto;
+  border-radius: var(--radius);
+}
