@@ -55,8 +55,8 @@ After riding it for a while and going back to my NX500, I can no longer stand th
 
 My views on motorcycling changed, quite drastically and in a short period of time. I like riding, but I also want comfort while doing it. I see many motorcyclists clinging to liter bikes or tall ADV bikes just to avoid admitting they want something that better fits their needs—something smaller, in most cases. Why suffer doing something you're supposed to enjoy?
 
-And that's my take now. I can say I've rekindled my appreciation for small-cc motorcycles, much like I did with my old Benelli 125 BN. They are smaller and lighter, making them much more manageable in day-to-day life, and their maintenance costs and fuel consumption are low. They can't overtake other vehicles easily (mostly the 125cc ones, though 300cc might manage), but they weren't made for that anyway.
+And that's my take now. I can say I've rekindled my appreciation for small-cc motorcycles/scooters, much like I did with my old Benelli 125 BN. They are smaller and lighter, making them much more manageable in day-to-day life, and their maintenance costs and fuel consumption are low. They can't overtake other vehicles easily (mostly the 125cc ones, though 300cc might manage), but they weren't made for that anyway.
 
-So, to conclude: I ride slowly, comfortably, and I have a great time doing it. Yes, it takes me longer to reach places sometimes, but I kind of need that. Taking more time.
+So, to conclude: I ride slowly, comfortably, and I have a great time doing it. Yes, it takes me longer to reach places sometimes, but I kind of need that. Taking my time.
 
 Hope you enjoyed the read. See you in the next one. Take care!
