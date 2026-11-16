@@ -9,7 +9,7 @@ One of my favorite things to do is riding motorcycles. I've been doing it for 4 
 
 It served me well to get the basics of motorcycle riding. Then, after some months, I decided to sign up for riding school, took the theoretical and practical classes, did the exam, passed it with some grunting from the examiner (typical), and done. I had unlocked the full potential to ride any motorcycle I wanted.
 
-![have power](have-power.gif)
+![have power](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXZrcGFheG14MmF3N3BvZ29nZDlqa3Nhbzg1dm0wc3FuZjNscGhvYSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/Ph5ELYJov9n5oHzVHZ/giphy.gif)
 
 At this point, I was free to choose whatever bike I wanted, so I started looking at brands, models, reliability, and such, and I decided to get a Honda CB500X. You will notice that I have a preference for Japanese-made motorcycles. dThey have low maintenance costs and a reputation for being reliable.
 
@@ -23,7 +23,7 @@ I bought a Honda CB650R. This bike was a lot of fun. It was fun because I jumped
 
 But riding it on the highway was a nightmare. With no wind protection like the CB500X had, at 100 km/h you had the full force of the wind hitting every part of your upper body. It's awful. You get used to it, but it still sucks. And the riding position killed me slowly. After a year of riding it daily, doing some short trips, and a trip to Picos de Europa, my lower back was screaming, "For the love of God, man, stop this madness." I'm not old, mind you—I'm in my early 30s. I weight train, run, and jump rope. So I'm not in bad shape per se, dismissing some belly fat here and there. Small details... you get the point.
 
-![back pain](back-pain.gif)
+![back pain](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDB6cmdqZDg3anp2dGRjYWo4aTB6YTNobTFuNTV1djlxZGx2eWQ3biZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oxBA87XpWjHsodNVoF/giphy.gif)
 
 My back hurting on this bike wasn't because of old age or being out of shape; naked bikes just have this effect. When you're on the short end of the height spectrum, you suffer more because you have to lean and stretch further to reach the handlebars. I kept it for some time then I sold it and in the meantime went back to tall adventure bikes.
 
@@ -35,7 +35,7 @@ Ok, background story done. Now to get to the main point of this wall of text. Si
 
 Since I got the NX500, I've been enjoying riding slowly much, much more. Cruising at low speeds lets me appreciate the ride, the scenery, and everything happening around me. I can actually see things as they are, not as blurs from high speed. I take my time and genuinely relax. Of course, I'm talking about cruising on national roads. Highway motorcycle riding is just stressful and boring. You get hit by the noise of the wind, everyone is acting like they are on a race track, doing crazy lane switches. Its just too much stress.
 
-![Joy ride](joy-ride.gif)
+![Joy ride](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ltZjkxdHdncm5kOHRib3FvanYzeGwyaTB1dmYwZTloYmlmN3BsNCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/l2RnBo8LaGNtyfHxe/giphy.gif)
 
 You can call me an old man as much as you like, but slow riding in a constantly fast-paced world, where everything needs to be done, thought about, and spoken quickly because of FOMO, I guess, is a blessing and a much-needed moment of peace. I think this applies to other things as well. Doing things slowly is necessary. Maybe I can discuss that in detail in another post.
 
@@ -43,7 +43,7 @@ However, I'm not a tall adventure motorcyclist either. Sure, I can manage my NX5
 
 Now, before the "scooter police" bust into my house SWAT-style to address my previous degrading comments...
 
-![SWAT busting in](swat.gif)
+![SWAT busting in](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGVpOTVsanNlYzJhYmN3YmJoNm42cGRwdG94M3l4Z3N3Z2hramR4bSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/jmSjPi6soIoQCFwaXJ/giphy.gif)
 
 Let me explain. When I started my motorcycling journey, I hung out with other riders—some more experienced—who considered anything below 1000cc (or stretching to 500cc as an absolute minimum) to be God's unholy mistake on Earth. Those who rode anything below those displacements weren't even worth sharing the same air with, let alone receiving the traditional motorcycle wave that signals respect (_"You, my good sir/miss, have a nice bike. Take care"_).
 
